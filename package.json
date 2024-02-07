@@ -1,0 +1,24 @@
+{
+  "name": "generate-book",
+  "version": "1.0.0",
+  "description": "this is for generating book via Keywords AI platform.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "mateus",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.7.0",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.13.0"
+  }
+}
